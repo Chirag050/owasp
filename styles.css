@@ -1,0 +1,232 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body {
+  height: 100%;
+  width: 100%;
+}
+#page1{
+  height: 100vh;
+  width: 100%;
+  background-color: #000000;
+  position: relative;
+}
+#nav{
+  height: 500px;
+  width: 100%;
+  position: centre;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#nav img{
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+#nav h1{
+  color: #ffffff;
+  font-size: 75px;
+  font-weight: 900;
+  font: poppins;
+ position: absolute;
+  top: 200px;
+  right: 100px;
+}
+
+
+#nav-part2{
+      display: flex;    
+  align-items: center;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  gap: 1vw;
+}
+#nav-part2 h4{
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 50px;
+ font-size: 18px;
+  position: relative;
+  transition: all ease 0.4s;
+  overflow: hidden;
+}
+#nav-part2 h4::after{
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #e9e2e2;
+  left: 0;
+  bottom: -100%;
+  border-radius: 20%;
+  transition: all ease 0.3s;
+}
+#nav-part2 h4:hover::after{
+  bottom: 0;
+}
+#nav-part2 h4 a{
+  text-decoration: none;
+  color: white;
+  z-index: 9;
+  position: relative;
+}
+#nav-part2 h4:hover a {
+  color: black;
+}
+#graph{
+  height: 100vh;
+  width: 100%;
+  background-color: #4d4d4d;
+}
+#courses{
+  height: 50vh;
+  width: 100%;
+  background-color: #250001;
+  position: relative;
+  
+}
+#consultancy{
+  height: 50vh;
+  width: 100%;
+  background-color: #04151f;
+  position:relative ;
+}
+#course1{
+  height: 40vh;
+  width: 25%;
+  align-items: center;
+  position: absolute;
+  top: 30px;
+  left:30px;
+  background-color: #4c4d4c;
+  border: 2px;
+  border-radius: 20px;
+  transition-property: bacground-color;
+  transition-duration: 1s;
+}
+#course1:hover{
+  background-color: #e9e2e2; 
+  height:400px ;
+  width: 400px;
+}
+#course2
+{
+  height: 40vh;
+  width: 25%;
+  align-items: center;
+  position: absolute;
+  top: 30px;
+  left:460px;
+  background-color: #4d514d;
+  border: 2px;
+  border-radius: 20px;
+  transition-property: background color;
+  transition-duration: 1s;
+}
+#course2:hover{
+  background-color: #e9e2e2;
+}
+#course3{
+  height: 40vh;
+  width: 25%;
+  align-items: center;
+  position: absolute;
+  top: 30px;
+  left:900px;
+  background-color: #454a45;
+  border: 2px;
+  border-radius: 20px;
+  transition-property: background color;
+  transition-duration: 1s;
+}
+#course3:hover{
+  background-color: #e9e2e2;
+}
+#c1{
+  height: 40vh;
+  width: 25%;
+  align-items: center;
+  position: absolute;
+  top: 30px;
+  left:30px;
+  background-color: #4c4d4c;
+  border: 2px;
+  border-radius: 20px;
+  transition-property: bacground-color;
+  transition-duration: 1s;
+}
+#c1:hover{
+  background-color: #e9e2e2; 
+}
+#c2{
+  height: 40vh;
+  width: 25%;
+  align-items: center;
+  position: absolute;
+  top: 30px;
+  left:460px;
+  background-color: #4d514d;
+  border: 2px;
+  border-radius: 20px;
+  transition-property: baackground color;
+  transition-duration: 1s;
+}
+#c2:hover{
+  background-color: #e9e2e2;
+  height: 400px;
+  width: 400px;
+  
+}
+#c3{
+  height: 40vh;
+  width: 25%;
+  align-items: center;
+  position: absolute;
+  top: 30px;
+  left:900px;
+  background-color: #454a45;
+  border: 2px;
+  border-radius: 20px;
+  transition-property: backgroud color;
+  transition-duration: 1s;
+}
+#c3:hover{
+  background-color: #e9e2e2;
+  height: 400px;
+  width: 400px;
+}
+#nav-part3{
+ display: flex;
+  align-items: center;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  gap: 1vw;
+}
+#nav-part3 h4{
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+ font-size: 18px;
+  position: relative;
+  transition: all ease 0.4s;
+  overflow: hidden;
+}
+#nav-part3 h4::after{
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #e9e2e2;
+  left: 0;
+  bottom: -100%;
+}
